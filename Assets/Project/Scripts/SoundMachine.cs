@@ -7,24 +7,38 @@ using UnityEngine.UI;
 
 public class SoundMachine : MonoBehaviour
 {
-    [SerializeField] private Gradient gradient;
+    [SerializeField] private Gradient backgroundGradient;
+    [SerializeField] private Gradient fillGradient;
     [SerializeField] private Image backgroundColor;
+    [SerializeField] private Image sliderFill;
+    [SerializeField] private Image sliderNode;
     [SerializeField] private TextMeshProUGUI daytimeText;
     [Space] 
     [SerializeField] private SoundData[] soundData;
 
     private void OnEnable()
     {
-        backgroundColor.color = gradient.Evaluate(0);
+        OnSliderValueChanged(0);
     }
-
+    
     public void OnSliderValueChanged(Single value)
     {
-        backgroundColor.color = gradient.Evaluate(value / 100);
+        backgroundColor.color = backgroundGradient.Evaluate(value / 100);
+        sliderFill.color = fillGradient.Evaluate(value / 100);
+        sliderNode.color = fillGradient.Evaluate(value / 100);
+
+        foreach (var data in soundData)
+        {
+            if (value >= data.startTime && value < data.endTime)
+            {
+                daytimeText.text = data.dayTimeName;
+                break;
+            }
+        }
     }
 }
 
-[System.Serializable]
+[Serializable]
 struct SoundData
 {
     public string dayTimeName;
