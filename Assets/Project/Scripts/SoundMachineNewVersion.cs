@@ -4,29 +4,42 @@ using UnityEngine.Playables;
 using UnityEngine.UI;
 
 public class SoundMachineNewVersion : MonoBehaviour
-{
-    [SerializeField] private Gradient backgroundGradient;
-    [SerializeField] private Image backgroundColor;
+{  
+    [Space]
     [SerializeField] private TMP_InputField hourTxt, minuteTxt;
+    [SerializeField] private TextMeshProUGUI messagingText;
     [Space] 
     [SerializeField] private float hourToSecondRatio = 60;
     [SerializeField] private PlayableDirector mainPlayableDirector;
-    [SerializeField] private TextMeshProUGUI messagingText;
 
     [Tooltip("in seconds")] [SerializeField]
     private float playbackDuration = 60;
 
     [Header("play/pause")] [SerializeField]
     private Image playPauseBtnImage;
-
     [SerializeField] private Sprite playIcon, pauseIcon;
-
+    
+    [Tooltip("deco")]
+    [SerializeField] private Gradient backgroundGradient;
+    [SerializeField] private Image backgroundColor;
+    
     private bool reachedPlaybackEnd;
-    public float currentSelectedTime;
-    public float passedTime;
+    private float currentSelectedTime;
+    private float passedTime;
     private bool isPaused;
 
+    private void Start()
+    {
+        playPauseBtnImage.gameObject.SetActive(false);
+    }
 
+    private void Update()
+    {
+        //if(!Input.anyKey) return;
+        
+        if(Input.GetKeyDown(KeyCode.Return))
+            OnTimeChanged();
+    }
 
     public void OnTimeChanged()
     {
@@ -46,6 +59,7 @@ public class SoundMachineNewVersion : MonoBehaviour
         currentSelectedTime = (selectedHour * 60) + selectedMinute;
         backgroundColor.color = backgroundGradient.Evaluate(currentSelectedTime / (hourToSecondRatio * 24));
         mainPlayableDirector.time = currentSelectedTime;
+        playPauseBtnImage.gameObject.SetActive(true);
 
         passedTime = 0;
         PlayAudio();
@@ -94,6 +108,7 @@ public class SoundMachineNewVersion : MonoBehaviour
     private void OnReachedPlaybackEnd()
     {
         reachedPlaybackEnd = true;
+        playPauseBtnImage.gameObject.SetActive(false);
         PauseAudio();
     }
 

@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dc100c9-fa2d-4cc1-8b80-c8b2227bf9e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/SoundMachineNewVersion.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/SoundMachineNewVersion.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Sprite.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Sprite/media_pause.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Sprite/media_pause.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Sprite/media_play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Sprite/media_play.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SoundMachine_Proj/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SoundMachine_Proj/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SoundMachine_Proj/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SoundMachine_Proj/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Audio/NewAudioMixer.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Audio/NewAudioMixer.mixer" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Project/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/SoundMachine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/SoundMachine.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/SoundMachineNewVersion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/SoundMachineNewVersion.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,27 +34,29 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Project/Scripts/SoundMachineNewVersion.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+            <state relative-caret-position="393">
+              <caret line="110" column="52" selection-start-line="110" selection-start-column="52" selection-end-line="110" selection-end-column="52" />
               <folding>
-                <marker date="1592404881039" expanded="true" signature="6:82" ph="..." />
-                <marker date="1592404881039" expanded="true" signature="135:3483" ph="{...}" />
-                <marker date="1592404881039" expanded="true" signature="905:1612" ph="{...}" />
-                <marker date="1592404881039" expanded="true" signature="1677:2045" ph="{...}" />
-                <marker date="1592404881039" expanded="true" signature="1718:1834" ph="{...}" />
-                <marker date="1592404881039" expanded="true" signature="1874:1992" ph="{...}" />
-                <marker date="1592404881039" expanded="true" signature="2091:2141" ph="{...}" />
-                <marker date="1592404881039" expanded="false" signature="2147:2510" ph="handling Timeline End Reach" />
-                <marker date="1592404881039" expanded="true" signature="2212:2286" ph="{...}" />
-                <marker date="1592404881039" expanded="true" signature="2316:2390" ph="{...}" />
-                <marker date="1592404881039" expanded="true" signature="2451:2495" ph="{...}" />
-                <marker date="1592404881039" expanded="true" signature="2555:2624" ph="{...}" />
-                <marker date="1592404881039" expanded="true" signature="2659:2828" ph="{...}" />
-                <marker date="1592404881039" expanded="true" signature="2718:2764" ph="{...}" />
-                <marker date="1592404881039" expanded="true" signature="2777:2822" ph="{...}" />
-                <marker date="1592404881039" expanded="true" signature="2858:3197" ph="{...}" />
-                <marker date="1592404881039" expanded="true" signature="2896:2965" ph="{...}" />
-                <marker date="1592404881039" expanded="true" signature="3228:3481" ph="{...}" />
+                <marker date="1592406218088" expanded="true" signature="6:82" ph="..." />
+                <marker date="1592406218088" expanded="true" signature="135:3887" ph="{...}" />
+                <marker date="1592406218088" expanded="true" signature="942:1009" ph="{...}" />
+                <marker date="1592406218088" expanded="true" signature="1036:1167" ph="{...}" />
+                <marker date="1592406218088" expanded="true" signature="1200:1961" ph="{...}" />
+                <marker date="1592406218088" expanded="false" signature="2026:2394" ph="{...}" />
+                <marker date="1592406218088" expanded="true" signature="2067:2183" ph="{...}" />
+                <marker date="1592406218088" expanded="true" signature="2223:2341" ph="{...}" />
+                <marker date="1592406218088" expanded="false" signature="2440:2490" ph="{...}" />
+                <marker date="1592406218088" expanded="false" signature="2496:2859" ph="handling Timeline End Reach" />
+                <marker date="1592406218088" expanded="true" signature="2561:2635" ph="{...}" />
+                <marker date="1592406218088" expanded="true" signature="2665:2739" ph="{...}" />
+                <marker date="1592406218088" expanded="true" signature="2800:2844" ph="{...}" />
+                <marker date="1592406218088" expanded="true" signature="2904:3028" ph="{...}" />
+                <marker date="1592406218088" expanded="false" signature="3063:3232" ph="{...}" />
+                <marker date="1592406218088" expanded="true" signature="3122:3168" ph="{...}" />
+                <marker date="1592406218088" expanded="true" signature="3181:3226" ph="{...}" />
+                <marker date="1592406218088" expanded="false" signature="3262:3601" ph="{...}" />
+                <marker date="1592406218088" expanded="true" signature="3300:3369" ph="{...}" />
+                <marker date="1592406218088" expanded="false" signature="3632:3885" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -153,12 +145,12 @@
       <option name="presentableId" value="Default" />
       <updated>1592374632670</updated>
       <workItem from="1592374646690" duration="5720000" />
-      <workItem from="1592400619548" duration="4255000" />
+      <workItem from="1592400619548" duration="5590000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9975000" />
+    <option name="totallyTimeSpent" value="11310000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -237,27 +229,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Project/Scripts/SoundMachineNewVersion.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        <state relative-caret-position="393">
+          <caret line="110" column="52" selection-start-line="110" selection-start-column="52" selection-end-line="110" selection-end-column="52" />
           <folding>
-            <marker date="1592404881039" expanded="true" signature="6:82" ph="..." />
-            <marker date="1592404881039" expanded="true" signature="135:3483" ph="{...}" />
-            <marker date="1592404881039" expanded="true" signature="905:1612" ph="{...}" />
-            <marker date="1592404881039" expanded="true" signature="1677:2045" ph="{...}" />
-            <marker date="1592404881039" expanded="true" signature="1718:1834" ph="{...}" />
-            <marker date="1592404881039" expanded="true" signature="1874:1992" ph="{...}" />
-            <marker date="1592404881039" expanded="true" signature="2091:2141" ph="{...}" />
-            <marker date="1592404881039" expanded="false" signature="2147:2510" ph="handling Timeline End Reach" />
-            <marker date="1592404881039" expanded="true" signature="2212:2286" ph="{...}" />
-            <marker date="1592404881039" expanded="true" signature="2316:2390" ph="{...}" />
-            <marker date="1592404881039" expanded="true" signature="2451:2495" ph="{...}" />
-            <marker date="1592404881039" expanded="true" signature="2555:2624" ph="{...}" />
-            <marker date="1592404881039" expanded="true" signature="2659:2828" ph="{...}" />
-            <marker date="1592404881039" expanded="true" signature="2718:2764" ph="{...}" />
-            <marker date="1592404881039" expanded="true" signature="2777:2822" ph="{...}" />
-            <marker date="1592404881039" expanded="true" signature="2858:3197" ph="{...}" />
-            <marker date="1592404881039" expanded="true" signature="2896:2965" ph="{...}" />
-            <marker date="1592404881039" expanded="true" signature="3228:3481" ph="{...}" />
+            <marker date="1592406218088" expanded="true" signature="6:82" ph="..." />
+            <marker date="1592406218088" expanded="true" signature="135:3887" ph="{...}" />
+            <marker date="1592406218088" expanded="true" signature="942:1009" ph="{...}" />
+            <marker date="1592406218088" expanded="true" signature="1036:1167" ph="{...}" />
+            <marker date="1592406218088" expanded="true" signature="1200:1961" ph="{...}" />
+            <marker date="1592406218088" expanded="false" signature="2026:2394" ph="{...}" />
+            <marker date="1592406218088" expanded="true" signature="2067:2183" ph="{...}" />
+            <marker date="1592406218088" expanded="true" signature="2223:2341" ph="{...}" />
+            <marker date="1592406218088" expanded="false" signature="2440:2490" ph="{...}" />
+            <marker date="1592406218088" expanded="false" signature="2496:2859" ph="handling Timeline End Reach" />
+            <marker date="1592406218088" expanded="true" signature="2561:2635" ph="{...}" />
+            <marker date="1592406218088" expanded="true" signature="2665:2739" ph="{...}" />
+            <marker date="1592406218088" expanded="true" signature="2800:2844" ph="{...}" />
+            <marker date="1592406218088" expanded="true" signature="2904:3028" ph="{...}" />
+            <marker date="1592406218088" expanded="false" signature="3063:3232" ph="{...}" />
+            <marker date="1592406218088" expanded="true" signature="3122:3168" ph="{...}" />
+            <marker date="1592406218088" expanded="true" signature="3181:3226" ph="{...}" />
+            <marker date="1592406218088" expanded="false" signature="3262:3601" ph="{...}" />
+            <marker date="1592406218088" expanded="true" signature="3300:3369" ph="{...}" />
+            <marker date="1592406218088" expanded="false" signature="3632:3885" ph="{...}" />
           </folding>
         </state>
       </provider>
