@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8dc100c9-fa2d-4cc1-8b80-c8b2227bf9e8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/SoundMachineNewVersion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/SoundMachineNewVersion.cs" afterDir="false" />
-    </list>
+    <list default="true" id="8dc100c9-fa2d-4cc1-8b80-c8b2227bf9e8" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,12 +142,12 @@
       <option name="presentableId" value="Default" />
       <updated>1592374632670</updated>
       <workItem from="1592374646690" duration="5720000" />
-      <workItem from="1592400619548" duration="5590000" />
+      <workItem from="1592400619548" duration="6178000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11310000" />
+    <option name="totallyTimeSpent" value="11898000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
